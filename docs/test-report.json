@@ -1,0 +1,214 @@
+{
+  "environment": "Chromium mobile/desktop document rendering; isolated in-memory localStorage adapter due browser URL policy",
+  "passed": 50,
+  "tests": [
+    {
+      "test": "Initial demo: 4 projects / 8 tasks / 5 payments",
+      "result": "PASS"
+    },
+    {
+      "test": "Current month total is 39,500 RUB",
+      "result": "PASS"
+    },
+    {
+      "test": "Project search matches title",
+      "result": "PASS"
+    },
+    {
+      "test": "Search empty state",
+      "result": "PASS"
+    },
+    {
+      "test": "Completed-project filter",
+      "result": "PASS"
+    },
+    {
+      "test": "Create project with decimal budget",
+      "result": "PASS"
+    },
+    {
+      "test": "Project detail escapes HTML",
+      "result": "PASS"
+    },
+    {
+      "test": "Task links to current project",
+      "result": "PASS"
+    },
+    {
+      "test": "Task completion updates persisted state",
+      "result": "PASS"
+    },
+    {
+      "test": "Recorded payment is linked and numeric",
+      "result": "PASS"
+    },
+    {
+      "test": "Paid project amount recalculates",
+      "result": "PASS"
+    },
+    {
+      "test": "Payment edit",
+      "result": "PASS"
+    },
+    {
+      "test": "Project status edit",
+      "result": "PASS"
+    },
+    {
+      "test": "State serialization and restoration",
+      "result": "PASS"
+    },
+    {
+      "test": "Deletion requires confirmation",
+      "result": "PASS"
+    },
+    {
+      "test": "Project deletion removes its tasks",
+      "result": "PASS"
+    },
+    {
+      "test": "Project deletion preserves payment history",
+      "result": "PASS"
+    },
+    {
+      "test": "Completed tasks filter",
+      "result": "PASS"
+    },
+    {
+      "test": "Income month navigation",
+      "result": "PASS"
+    },
+    {
+      "test": "Dark theme applies",
+      "result": "PASS"
+    },
+    {
+      "test": "Backup exports valid JSON",
+      "result": "PASS"
+    },
+    {
+      "test": "Invalid backup rejected",
+      "result": "PASS"
+    },
+    {
+      "test": "Valid backup restores full state",
+      "result": "PASS"
+    },
+    {
+      "test": "Clean workspace clears data and demo flag",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 320x568 / home",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 320x568 / projects",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 320x568 / tasks",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 320x568 / income",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 360x800 / home",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 360x800 / projects",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 360x800 / tasks",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 360x800 / income",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 390x844 / home",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 390x844 / projects",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 390x844 / tasks",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 390x844 / income",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 430x932 / home",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 430x932 / projects",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 430x932 / tasks",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 430x932 / income",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 844x390 / home",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 844x390 / projects",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 844x390 / tasks",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 844x390 / income",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 1280x800 / home",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 1280x800 / projects",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 1280x800 / tasks",
+      "result": "PASS"
+    },
+    {
+      "test": "No horizontal overflow 1280x800 / income",
+      "result": "PASS"
+    },
+    {
+      "test": "Backup schema rejects bad version, duplicate IDs and negative goal",
+      "result": "PASS"
+    },
+    {
+      "test": "No uncaught JavaScript errors",
+      "result": "PASS"
+    }
+  ],
+  "javascriptErrors": [],
+  "notCovered": [
+    "Physical Android device",
+    "Android emulator installation/runtime",
+    "Real WebView localStorage persistence across process death",
+    "HTTP service worker / PWA installation",
+    "Google Play submission"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "package": "com.lunex.folio",
+  "version": "1.0.0",
+  "minSdk": 26,
+  "targetSdk": 34,
+  "signature": "APK Signature Scheme v2, RSA-2048 / SHA-256",
+  "certificateSha256": "cd37734bed9e97f64cebdacd46691ec22eff2ead639d0cfa80ee8cc41deba142",
+  "apkSha256": "519ca6c204b26cec7c424531361049fcc6c8bd4c13127656921b1454486cc034",
+  "bytes": 54104,
+  "packager": "tools/package_apk.py; matching Java host supplied",
+  "runtimeTestedOnAndroid": false
+}
